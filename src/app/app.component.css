@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.div1{
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+
+.div2{
+    background-color: beige;
+}
+
+button{
+    text-align: center;
+}
