@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 mt-5">
+        <div class="card">
+          <div class="card-header">
+            Información del Perceptrón Entrenado
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Neurona 1</h5>
+            <p class="card-text">Pesos: {{ perceptronInfo.neurona_1.pesos }}</p>
+            <p class="card-text">Taza de Aprendizaje: {{ perceptronInfo.neurona_1.taza_de_aprendizaje }}</p>
+            <p class="card-text">Error: {{ perceptronInfo.neurona_1.error }}</p>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Neurona 2</h5>
+            <p class="card-text">Pesos: {{ perceptronInfo.neurona_2.pesos }}</p>
+            <p class="card-text">Taza de Aprendizaje: {{ perceptronInfo.neurona_2.taza_de_aprendizaje }}</p>
+            <p class="card-text">Error: {{ perceptronInfo.neurona_2.error }}</p>
+          </div>
+          <div class="card-footer text-muted">
+            <button class="btn btn-primary" (click)="volver()">Volver</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
